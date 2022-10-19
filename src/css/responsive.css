@@ -1,0 +1,237 @@
+@media (max-width: 1440px) {
+  header div {
+    width: 40vw;
+  }
+
+  button.refresh-page-after-searching {
+    width: 3vw;
+  }
+
+  main {
+    margin-left: 5%;
+    height: 50vh;
+    width: 90%;
+  }
+
+  input {
+    width: 18vw;
+  }
+}
+
+
+@media (max-width: 1280px) {
+  header div {
+    width: 41vw;
+  }
+
+  button.refresh-page-after-searching {
+    width: 3.5vw;
+  }
+
+  .boy,
+  .boy-after-searching,
+  .girl {
+    width: 20vw;
+  }
+
+  input {
+    height: 4vh;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  button.refresh-page-after-searching {
+    width: 4vw;
+    height: 42px;
+  }
+
+  input {
+    border-radius: 8px;
+    height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  input::placeholder {
+    font-size: 1.5rem;
+  }
+
+  .tip {
+    width: 80vw;
+  }
+
+  .tip p {
+    font-size: 2rem;
+  }
+
+  .tip h1 {
+    font-size: 4rem;
+  }
+}
+
+
+@media (max-width: 834px) {
+  header {
+    margin-bottom: 4vh;
+  }
+
+  header div {
+    width: 54vw;
+  }
+
+  button.refresh-page-after-searching {
+    border-radius: 6px;
+    width: 5vw;
+    height: 40px;
+  }
+
+  main {
+    align-items: flex-start;
+    height: 30vh;
+    width: 90%;
+  }
+
+  .main-after-searching {
+    margin-top: 10vh;
+  }
+
+  input {
+    border-radius: 6px;
+    width: 23vw;
+  }
+
+  .girl {
+    width: 17.5vw;
+  }
+
+  .girl-box {
+    margin-top: 70px;
+  }
+
+  .tip {
+    width: 90vw;
+  }
+
+  .tip p {
+    font-size: 1.9rem;
+    margin: 3vh;
+  }
+
+  .tip h1 {
+    font-size: 3rem;
+  }
+
+  button.show-another-tip {
+    border-radius: 28px;
+    font-size: 1.9rem;
+    height: 45px;
+    width: 270px;
+  }
+}
+
+
+@media (max-width: 600px) {
+  button.refresh-page-after-searching {
+    border-radius: 6px;
+    width: 6vw;
+    height: 36px;
+  }
+
+  input {
+    border-radius: 7px;
+    font-size: 1.3rem;
+    line-height: 1.3rem;
+  }
+
+  input::placeholder {
+    font-size: 1.3rem;
+  }
+
+  .tip p {
+    font-size: 1.6rem;
+  }
+
+  .tip h1 {
+    font-size: 2.5rem;
+  }
+
+  button.show-another-tip {
+    font-size: 1.8rem;
+    height: 40px;
+    width: 250px;
+  }
+}
+
+
+@media (max-width: 414px) {
+  header {
+    display: block;
+    text-align: center;
+  }
+
+  header div {
+    display: block;
+    margin: 20px auto 0;
+    width: 100%;
+  }
+
+  button.refresh-page {
+    display: none;
+  }
+
+  button.refresh-page-after-searching {
+    display: block;
+    margin: 0 auto 5px;
+    width: 9vw;
+  }
+
+  main {
+    display: block;
+  }
+
+  input {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    width: 70vw;
+  }
+
+  .tip h1 {
+    margin-top: 0;
+  }
+
+  .boy {
+    display: none;
+  }
+
+  .boy-after-searching {
+    display: none;
+  }
+
+  .girl {
+    width: 50vw;
+    margin: 0 auto 5vh;
+  }
+
+  input::placeholder {
+    font-size: 1.4rem;
+  }
+
+  input[type=number] {
+    margin-bottom: 3px;
+  }
+}
+
+@media (max-width: 320px) {
+  .tip {
+    width: 90vw;
+  }
+
+  header img {
+    width: 100px;
+  }
+
+  button.show-another-tip {
+    width: 180px;
+  }
+}

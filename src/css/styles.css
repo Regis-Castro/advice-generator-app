@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&family=Vidaloka&display=swap');
+
+:root {
+  font-size: 62.5%
+}
+
+body {
+  color: #2E2E2C;
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  margin: 0 auto;
+}
+
+header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  margin: 2vh auto;
+  width: 80vw;
+}
+
+header div {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 26vw;
+}
+
+button.refresh-page {
+  visibility: hidden;
+}
+
+button.refresh-page-after-searching {
+  background-color: #5FA09C;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 5vh;
+  visibility: visible;
+  width: 2vw;
+}
+
+button.refresh-page:hover, button.refresh-page-after-searching:hover {
+  background-color: #55908C;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  height: 66vh;
+  margin: 0 auto;
+  text-align: center;
+  width: 80vw;
+}
+
+input {
+  border: 2px solid grey;
+  border-radius: 7px;
+  font-size: 2.2rem;
+  height: 5vh;
+  padding-left: 5px;
+  width: 11.8vw;
+}
+
+input::placeholder {
+  font-family: 'Mulish', sans-serif;
+  font-size: 1.8rem;
+}
+
+input:focus {
+  border: 2px solid black;
+}
+
+.boy {
+  align-self: flex-start;
+}
+
+.boy-after-searching {
+  align-self: flex-end;
+}
+
+.girl {
+  align-self: flex-end;
+  margin: 10vh 0;
+}
+
+.girl-box {
+  margin-top: 35vh;
+}
+
+.tip {
+  margin: 0 auto;
+  text-align: center;
+  width: 50vw;
+}
+
+.tip h1 {
+  font-family: 'Vidaloka', serif;
+  font-size: 5.2rem;
+  font-weight: 400;
+}
+
+.tip p {
+  font-size: 2.4rem;
+  font-weight: 400;
+  margin: 5vh 4vw;
+}
+
+button.show-another-tip {
+  background-color: #5FA09C;
+  border-radius: 50px;
+  box-shadow: 0px 13px 25px 0px rgba(49, 48, 48, 0.25);
+  color: #FFFFFF;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 2rem;
+  height: 60px;
+  width: 290px;
+}
+
+button.show-another-tip:hover {
+  transform: translateY(-1vh);
+  transition-duration: 0.5s;
+}

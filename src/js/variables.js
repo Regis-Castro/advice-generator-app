@@ -1,0 +1,7 @@
+export const adviceList = document.createElement("p")
+export const adviceID = document.querySelector('h1')
+export const adviceContent = document.querySelector('p')
+export const boy = document.querySelector('.boy')
+export const container = document.querySelector('.list')
+export const main = document.querySelector('main')
+export const refreshPageButton = document.querySelector('.refresh-page')
